@@ -1,0 +1,76 @@
+@import "common";
+
+.button-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &.box-left{
+        justify-content: flex-end;
+    }
+
+    &.box-right{
+        justify-content: flex-start;
+    }
+}
+
+.button{
+    @include various-border(thin);
+    @include various-color();
+
+    text-align: center;
+    margin-bottom: addSpace();
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+
+    @media #{$sp}{
+        height: 60px;
+        width: 135px;
+        font-size: 15px;
+    }
+
+    @media #{$tb}{
+        height: 80px;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    @media #{$pc}{
+        height: 80px;
+        width: 250px;
+        font-size: 25px;
+    }
+
+    &.ANGER {
+        @include button-hover($emotionAnger, #FFF);
+        font-family: $fontAnger;
+    }
+
+    &.DISGUST {
+        @include button-hover($emotionDisgust, #FFF);
+        font-family: $fontDisgust;
+    }
+
+    &.FEAR {
+        @include button-hover($emotionFear, #FFF);
+        font-family: $fotnFear;
+    }
+
+    &.HAPPINESS {
+        @include button-hover($emotionHappiness, #FFF);
+        font-family: $fontHappiness;
+    }
+
+    &.SORROW {
+        @include button-hover($emotionSorrow, #FFF);
+        font-family: $fontSorrow;
+    }
+
+    &.SURPRISE {
+        @include button-hover($emotionSurprise, #FFF);
+        font-family: $fontSurprise;
+    }
+}

@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Awesome Icon Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a set of files before building Awesome Icon Maker.
+Please install the necessary node modules by referring to the package.json file.
+The actual Awesome Icon Maker can be viewed at the URL below.
+The content described below is the same as the README of Awesome Icon Maker.
 
-## Available Scripts
+これは Awesome Icon Maker のビルド前のファイル群です。
+必要な node modules を package.json ファイルを参照してインストールして下さい。
+実際の Awesome Icon Maker は下の URL から見ることができます。
+以降に記載されている内容は Awesome Icon Maker の README と同じです。
 
-In the project directory, you can run:
+Awesome Icon Maker
+https://shogowada1999.github.io/awesome-icon-maker/
 
-### `npm start`
+![thumbnail-icon-maker](https://user-images.githubusercontent.com/81617513/125179796-b6e79200-e22c-11eb-9077-520e387cc158.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Awesome Icon Maker is a tool to download Font Awesome icons as png files. You can change the color of the icon, the background color, and the border color to create your favorite icon design.
+You can use it as your profile image or as a decorative image.
 
-### `npm test`
+Awesome Icon Maker は Font Awesome のアイコンを png ファイルでダウンロードするためのツールです。アイコンの色・背景色・枠線の色を変えて好きなデザインのアイコンを作ることができます。
+プロフィール画像や装飾用画像として使うことができます。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can freely display free-licensed icons by entering the class name of the Font Awesome icon.
+The three color pickers allow you to change the icon color, background color, and border color, and the range bar allows you to adjust the icon size.
+If you don't feel like selecting icons, you can select the buttons on both sides to display the icons that match your mood.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Font Awesome のアイコンのクラスネームを入力すればフリーライセンのアイコンを自由に表示できます。
+３つのカラーピッカーから、アイコンの色・背景色・枠線の色を変更することができ、レンジバーを使えばアイコンサイズを調節できます。
+アイコンを選択するのが面倒な場合は、両サイドのボタンを選択すれば気分に合わせたアイコンが表示されます。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+# Requirement
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ”@testing-library/jest-dom": "^5.14.1"
+- "@testing-library/react": "^11.2.7"
+- "@testing-library/user-event": "^12.8.3"
+- "bootstrap": "^5.0.2"
+- "html2canvas": "^1.0.0-rc.7"
+- "react": "^17.0.2"
+- "react-bootstrap": "^1.6.1"
+- "react-dom": "^17.0.2"
+- "react-scripts": "4.0.3"
+- "web-vitals": "^1.1.2"
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. First, enter the class name of the icon, or use the buttons on both sides to display the icon of your choice.
+2. Then, from the picker, select the icon color, background color, and border color to decide the design.
+3. Adjust the size of the icon in the range bar.
+4. Click the download button to output the icon as a png.
 
-## Learn More
+============================
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. 初めにアイコンのクラスネームを入力するか両側のボタンから好きなアイコンを表示させてください。
+2. 次にからピッカーから、アイコンの色・背景色・枠線の色を選択してデザインを決めて下さい。
+3. レンジバーでアイコンのサイズを調節してください。
+4. ダウンロードボタンを押せば、表示中のアイコンが png として出力できます。
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Shogo Wada
+- https://wadablog.net/
+- shogo.wada.pro@gmail.com
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# License
 
-### Making a Progressive Web App
+For information on how to handle the generated icon images, please refer to the URL shown below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+生成したアイコン画像の扱いについては、下記に示す URL をご参照下さい。
 
-### Advanced Configuration
+Font Awesome Free License
+https://fontawesome.com/license/free
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
