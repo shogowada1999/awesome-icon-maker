@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/awesome-icon-maker/static/css/main.2dcbacea.chunk.css",
+    "main.js": "/awesome-icon-maker/static/js/main.7d5cc40a.chunk.js",
+    "main.js.map": "/awesome-icon-maker/static/js/main.7d5cc40a.chunk.js.map",
+    "runtime-main.js": "/awesome-icon-maker/static/js/runtime-main.80a95e30.js",
+    "runtime-main.js.map": "/awesome-icon-maker/static/js/runtime-main.80a95e30.js.map",
+    "static/css/2.818011ed.chunk.css": "/awesome-icon-maker/static/css/2.818011ed.chunk.css",
+    "static/js/2.23fcf3c3.chunk.js": "/awesome-icon-maker/static/js/2.23fcf3c3.chunk.js",
+    "static/js/2.23fcf3c3.chunk.js.map": "/awesome-icon-maker/static/js/2.23fcf3c3.chunk.js.map",
+    "index.html": "/awesome-icon-maker/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/awesome-icon-maker/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.2dcbacea.chunk.css.map": "/awesome-icon-maker/static/css/main.2dcbacea.chunk.css.map",
+    "static/js/2.23fcf3c3.chunk.js.LICENSE.txt": "/awesome-icon-maker/static/js/2.23fcf3c3.chunk.js.LICENSE.txt",
+    "static/media/index.min.css": "/awesome-icon-maker/static/media/Yellowtail-Regular.52d25579.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80a95e30.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.23fcf3c3.chunk.js",
+    "static/css/main.2dcbacea.chunk.css",
+    "static/js/main.7d5cc40a.chunk.js"
+  ]
+}
