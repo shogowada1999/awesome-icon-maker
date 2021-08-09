@@ -3,12 +3,10 @@
 This is a set of files before building Awesome Icon Maker.
 Please install the necessary node modules by referring to the package.json file.
 The actual Awesome Icon Maker can be viewed at the URL below.
-The content described below is the same as the README of Awesome Icon Maker.
 
 これは Awesome Icon Maker のビルド前のファイル群です。
 必要な node modules を package.json ファイルを参照してインストールして下さい。
 実際の Awesome Icon Maker は下の URL から見ることができます。
-以降に記載されている内容は Awesome Icon Maker の README と同じです。
 
 Awesome Icon Maker
 https://shogowada1999.github.io/awesome-icon-maker/
