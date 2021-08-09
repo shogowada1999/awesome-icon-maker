@@ -15,7 +15,7 @@ https://shogowada1999.github.io/awesome-icon-maker/
 
 ---
 
-Awesome Icon Maker is a tool to download Font Awesome icons as png files. You can change the color of the icon, the background color, and the border color to create your favorite icon design.
+Awesome Icon Maker is a tool to download Font Awesome icons as png files. You can change the color of the icon, the background color, and the border col or to create your favorite icon design.
 You can use it as your profile image or as a decorative image.
 
 Awesome Icon Maker は Font Awesome のアイコンを png ファイルでダウンロードするためのツールです。アイコンの色・背景色・枠線の色を変えて好きなデザインのアイコンを作ることができます。
