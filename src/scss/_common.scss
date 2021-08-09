@@ -1,0 +1,170 @@
+$sm: "only screen and (max-width: 1199px)";
+$lg: "only screen and (min-width: 768px)";
+$ex: "only screen and (min-width: 1400px)";
+$sp: "only screen and (max-width:767px)";
+$tb: "only screen and (min-width: 768px) and (max-width: 1199px)";
+$pc: "only screen and (min-width: 1200px)";
+
+// Emotion Color
+$emotionAnger: #d50000;
+$emotionDisgust: #aa00ff;
+$emotionFear: #304ffe;
+$emotionHappiness: #ffab00;
+$emotionSorrow: #0091ea;
+$emotionSurprise: #00c853;
+
+// Winter Palette 1/4 hour
+$darkPrimaryWinter: #455A64;
+$lightPrimaryWinter: #CFD8DC;
+$primaryWinter: #607D8B;
+$textWinter: #FFFFFF;
+$accentWinter: #536DFE;
+$primaryTextWinter: #212121;
+$secondaryTextWinter: #757575;
+$dividerWinter: #BDBDBD;
+
+// Spring Palette 2/4 hour
+$darkPrimarySpring: #689F38;
+$lightPrimarySpring: #DCEDC8;
+$primarySpring: #8BC34A;
+$textSpring: #212121;
+$accentSpring: #FFEB3B;
+$primaryTextSpring: #212121;
+$secondaryTextSpring: #757575;
+$dividerSpring: #BDBDBD;
+
+// Summer Palette 3/4 hour
+$darkPrimarySummer: #0097A7;
+$lightPrimarySummer: #B2EBF2;
+$primarySummer: #00BCD4;
+$textSummer: #FFFFFF;
+$accentSummer: #FFC107;
+$primaryTextSummer: #212121;
+$secondaryTextSummer: #757575;
+$dividerSummer: #BDBDBD;
+
+// Autumn Palette 4/4 hour
+$darkPrimaryAutumn: #5D4037;
+$lightPrimaryAutumn: #D7CCC8;
+$primaryAutumn: #795548;
+$textAutumn: #FFFFFF;
+$accentAutumn: #FF5722;
+$primaryTextAutumn: #212121;
+$secondaryTextAutumn: #757575;
+$dividerAutumn: #BDBDBD;
+
+// Font
+$fontTitle: 'Barlow Semi Condensed', sans-serif;
+$fontA: 'Yellowtail', sans-serif;
+$fontB: 'Dancing Script', sans-serif;
+$fontC: 'Shadows Into Light', sans-serif;
+// $fontMix: ;
+$fontAnger: 'Raggae One', sans-serif;
+$fontDisgust: 'Eater', sans-serif;
+$fotnFear: 'Nosifer', sans-serif;
+$fontHappiness: 'Limelight', sans-serif;
+$fontSorrow: 'Over the Rainbow', sans-serif;
+$fontSurprise: 'Bungee Shade', sans-serif;
+
+// Border
+$borderA: solid 5px;
+$borderB: double 10px;
+$borderC: dotted 5px;
+$borderButtonA: solid 2px;
+$borderButtonB: double 5px;
+$borderButtonC: dotted 2px;
+
+@function addSpace($multiple: 1){
+    $space: 30px;
+    @return $space * $multiple;
+}
+
+@mixin various-font(){
+    &.time-first {
+        font-family: $fontA;
+    }
+
+    &.time-second {
+        font-family: $fontB;
+    }
+
+    &.time-third {
+        font-family: $fontC;
+    }
+}
+
+@mixin various-color(){
+    &.winter {
+        color: $textWinter;
+    }
+
+    &.spring {
+        color: $textSpring;
+    }
+
+    &.summer {
+        color: $textSummer;
+    }
+
+    &.autumn {
+        color: $textAutumn;
+    }
+}
+
+@mixin various-border($border-type){
+    @if $border-type == thin {
+        &.time-first {
+            border: $borderButtonA;
+        }
+
+        &.time-second {
+            border: $borderButtonB;
+        }
+
+        &.time-third {
+            border: $borderButtonC;
+        }
+    }
+
+    @if $border-type == bold {
+        &.time-first {
+            border: $borderA;
+        }
+
+        &.time-second {
+            border: $borderB;
+        }
+
+        &.time-third {
+            border: $borderC;
+        }
+    }
+
+    &.winter {
+        border-color: $dividerWinter;
+    }
+
+    &.spring {
+        border-color: $dividerSpring;
+    }
+
+    &.summer {
+        border-color: $dividerSummer;
+    }
+
+    &.autumn {
+        border-color: $dividerAutumn;
+    }
+}
+
+@mixin button-hover($textColor, $bgColor: regba(0, 0, 0, 0)){
+    cursor: pointer;
+    transition-duration: .2s;
+    background-color: rgba(0, 0, 0, 0);
+
+    &:hover{
+        color: $textColor;
+        background-color: $bgColor;
+        transition-duration: .2s;
+    }
+}

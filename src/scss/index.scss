@@ -1,0 +1,98 @@
+@import "common";
+
+// Font Include
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../webfonts/BarlowSemiCondensed-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bungee Shade';
+    src: url('../webfonts/BungeeShade-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../webfonts/DancingScript-VariableFont_wght.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eater';
+    src: url('../webfonts/Eater-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Limelight';
+    src: url('../webfonts/Limelight-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nosifer';
+    src: url('../webfonts/Nosifer-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Over the Rainbow';
+    src: url('../webfonts/OvertheRainbow-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raggae One';
+    src: url('../webfonts/ReggaeOne-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shadows Into Light';
+    src: url('../webfonts/ShadowsIntoLight-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../webfonts/Yellowtail-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+body{
+    .whole-wrap{
+        padding: 10% 0;
+        width: 100vw;
+        height: 100vh;
+
+        @media #{$sp}{
+             height: 170vh;
+        }
+
+        @media #{$tb}{
+            padding: 10vh 0 0;
+        }
+
+        @media #{$pc}{
+            padding: 15vh 0 0;
+        }
+    }
+
+    .whole-wrap.winter{
+        background-color: $primaryWinter;
+    }
+
+    .whole-wrap.spring{
+        background-color: $lightPrimarySpring;
+    }
+
+    .whole-wrap.summer{
+        background-color: $primarySummer;
+    }
+
+    .whole-wrap.autumn{
+        background-color: $primaryAutumn;
+    }
+}

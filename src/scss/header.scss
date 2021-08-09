@@ -1,0 +1,40 @@
+@import "common";
+
+header{
+    @include various-border(bold);
+    
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: addSpace();
+    margin-bottom: addSpace();
+
+    h1{
+        @include various-color();
+        
+        font-family: $fontTitle;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        @media #{$sp}{
+            font-size: 20px;
+            padding-left: addSpace(.33);
+        }
+    }
+
+    small{
+        @include various-font();
+        @include various-color();
+
+        padding-bottom: 0;
+        margin-bottom: 0;
+        font-size: 25px;
+
+        @media #{$sp} {
+            font-size: 15px;
+        }
+    }
+}

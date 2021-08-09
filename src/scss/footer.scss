@@ -1,0 +1,41 @@
+@import "common";
+
+footer{
+    @include various-border(bold);
+    @include various-color();
+    @include various-font();
+
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    padding-top: addSpace();
+    font-size: 23px;
+    text-align: center;
+
+    a{
+        @include various-color();
+
+        text-decoration: none;
+        transition-duration: .3s;
+
+        &:hover.winter {
+            color: $accentWinter;
+            transition-duration: .3s;
+        }
+
+        &:hover.spring{
+            color: $accentSpring;
+            transition-duration: .3s;
+        }
+
+        &:hover.summer {
+            color: $accentSummer;
+            transition-duration: .3s;
+        }
+
+        &:hover.autumn {
+            color: $accentAutumn;
+            transition-duration: .3s;
+        }
+    }
+}
